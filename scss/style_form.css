@@ -1,0 +1,45 @@
+.appointmetn-bottom label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+.appointmetn-bottom label:hover{
+    transition: .5s;
+    font-weight: bold;
+}
+
+.appointmetn-bottom input, textarea {
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border: 1px solid gray;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.appointmetn-bottom input:hover, input:focus, textarea:focus, textarea:hover{
+    transition: .3s;
+    box-sizing: content-box;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(var(--primary-color), rgba(240, 237, 47, 0.966));
+    border-image-slice:1;
+}
+.appointmetn-bottom button {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    margin-bottom: 5em;
+    border-radius: 5em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+}
+
+.appointmetn-bottom button:hover{
+    background-image: linear-gradient(var(--primary-color), rgba(240, 237, 47, 0.966));
+}  

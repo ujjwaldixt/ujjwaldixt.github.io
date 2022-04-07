@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Portfolio</title>
+        <!-- Bootstrap CSS --> 
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+            
+        <link
+          href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="scss/main.css" />
+        <link rel="stylesheet" href="../css/style_appointment.css">
+        <link rel="stylesheet" href="../css/style_nav_end.css">
+        <link rel="stylesheet" href="../css/style_form.css">
+      </head>
+    
+      <body>
+
+        <style>
+            .appointmetn-bottom{
+                padding: 4em 0;
+                max-width: 900px;
+                margin: 0 auto;
+                border-radius: 5px;
+                padding: 20px;
+            }
+            input[type=text], select {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+            }
+
+            input[type=email], select {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+            }
+            
+            .send-message-cta {
+              width: 10%;
+              background-color: #4CAF50;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+            
+            .send-message-cta:hover {
+              background-color: #45a049;
+            }
+
+            .tail-page{
+                padding-left: 6%;
+            }
+            
+            </style>
+
+            <header>
+                <a href="index.html#home" class="site-logo" aria-label="homepage">Ujjwal Dixit</a>
+                <nav class="main-nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item"><a href="index.html#home" class="nav__link">Home</a></li>
+                    <li class="nav__list-item">
+                    <a href="index.html#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__list-item">
+                    <a href="index.html#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__list-item">
+                    <a href="index.html#education" class="nav__link">Education</a>
+                    </li>
+                    <li class="nav__list-item"><a href="index.html#social" class="nav__link">Social Media</a></li>
+                </ul>
+                </nav>
+                <nav class="account">
+                <ul class="nav__list">
+                    <li class="nav__list-item">
+                    <a
+                        class="nav__link nav__link--btn nav__link--btn--highlight"
+                        href="contact.html"
+                        >Contact</a
+                    >
+                    </li>
+                </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section id="home" class="home-intro">
+                  
+
+                    <div class="appointmetn-bottom">
+                        <form action="https://formsubmit.co/jaydixit613@gmail.com" method="POST">
+                                <label for="name" >Name</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="email">Email</label>
+                                <input class="email" type="email" id="email" name="email" required>
+
+                                <label for="phone">Contact Number</label>
+                                <input type="text" id="phone" name="phone">
+                                
+                                <input type="hidden" name="_autoresponse" value="your custom message">
+                                <input type="hidden" name="_next" value="https://bannered-shape.000webhostapp.com/thankyou.html">              
+                                <button type="submit" class="send-message-cta">Submit</button>
+                        </form> 
+                    </div>
+
+                    <div class="tail-page" id="social">
+                        <ul class="end-list" style="list-style: none; display: flex; padding-top: 2%;">
+                            <li class="nav__list-item" style="padding-left: 35%;"><a class="btn btn-primary social__link" href="https://www.linkedin.com/in/ujjwal-dixit-943447202/" role="button"><i class="fab fa-linkedin-in"></i><span style="color: bisque;">LinkedIN</span></a></li>
+                            <li class="nav__list-item" style="padding-left: 3%;"><a class="btn btn-primary social__link" href="https://github.com/DJayDixit" role="button"><i class="fab fa-github"></i><span style="color: bisque;">GitHub</span></a></li>
+                        </ul>
+                    </div>
+                
+                </section>
+            </main>
+    
+    </body>
+
+</html>

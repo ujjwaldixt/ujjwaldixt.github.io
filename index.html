@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+        
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="scss/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="#home" class="site-logo" aria-label="homepage">Ujjwal Dixit</a>
+      <nav class="main-nav">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__list-item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#education" class="nav__link">Education</a>
+          </li>
+          <li class="nav__list-item"><a href="#social" class="nav__link">Social Media</a></li>
+        </ul>
+      </nav>
+      <nav class="account">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a
+              class="nav__link nav__link--btn nav__link--btn--highlight"
+              href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="home-intro">
+        <h1>&lt; Ujjwal Dixit &gt;</h1>
+        <h2> Software Developer Intern; </h2>
+      </section>
+
+      <div id="about" class="home-about">
+        <h2>About me</h2>
+        <p>A computer science major seeking proffesional development. Intrested in learning web development and machine learning.</p>
+        <div class="columns">
+          <div class="col fade-in">
+            <div class="card">
+              <h3 style="text-decoration: underline; padding-left:3%;">Work Experience</h3>
+              <h5 style="padding-left:3%;">Dhampur Sugar Industry</h5>
+              <span style="font-size: x-small; padding-left:3%;">Software Engineer Intern</span> <span style="font-size:x-small; padding-left:25%;">  May-Nov 2019</span>
+              <ul>
+                <li style="font-size: small; padding-bottom: 2%;">Facilitated the production of new software to automate the registration of Molasses and
+                  bagasse produced.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Verified the quality of the software through elaborate testing to ensure a bug-free
+                  software.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Helped Debugging and renew the old code bases.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Prepared and maintained software documentation.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Did weekly Deliverables.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Learned under the tutelage of a Senior Software Developer.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col fade-in">
+            <div class="card">
+              <h3 style="text-decoration: underline; padding-left:3%;">Technical Skills</h3>
+              <ul>
+                <li style="font-size: small; padding-bottom: 2%;">Experienced in HTML, CSS, JavaScript, Python, Java, C#, C, C++, Bash, Shell.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Knowledgeable about Data Structures and algorithms.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Knowledgeable about Object Orientated Programming technique.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Experienced in Database management using PostgreSQL and MySQL.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Comfortable using distributed version control systems such as Git/Git Hub.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Knows libraries and frameworks such as React, jQuery, Bootstrap, TailwindCSS, Express, Django, Numpy, Pandas, Sckit-Learn, Tensorflow.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Knowledgeable about Agile Processes and SOLID design principle.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col fade-in">
+            <div class="card">
+              <h3 style="text-decoration: underline; padding-left:3%;">Soft Skills</h3>
+              <ul>
+                <li style="font-size: small; padding-bottom: 2%;">Highly Motivated and outstanding communication skills convey ideas and feelings effectively.</li>
+                <li style="font-size: small; padding-bottom: 2%;">A quick and passionate learner. Always open to feedback and constructive criticsm.</li>
+                <li style="font-size: small; padding-bottom: 2%;">A team player and enjoys Collaborating with people and exchanging ideas.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Incredible at leading people, encouraging them to do their best and mentoring them.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Disciplined and Dependable, puts in full effort and dedication to the work.</li>
+                <li style="font-size: small; padding-bottom: 2%;">Excellent interpersonal skills, always displays empathy and compassion towards others.</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-about"><h2>Projects</h2></div>
+      <div id="projects" class="home-more-stuff">
+        
+        <div class="more-stuff-grid">
+          <img
+            src="img/priori_3.png"
+            alt=""
+            class="slide-in from-left"
+          />
+          <ul class="slide-in from-right">
+            <h2>Priori </h2>
+            <a href="https://github.com/ujjwaldixt/Priority_Scheduler" style="text-decoration: none; color: rgb(92, 4, 133); font-size: small;"> <img style="max-width: 20px; max-height: 10px;" src="img/link.svg"> Link to GitHub</a>
+            <li style="font-size: medium; padding-bottom: 2%;">This a priority scheduler web app. It suggests what task you should do in what order and how much time must you spent on each task.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">It uses MVC architecture. The back-end routing is done in node.js using Express.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">The front-end is design using React and Bootstrap. Apexcharts was used for the charts.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">The priority algorithm was designed in python. OOP concepts were used to better design the algorithm. Calculations are requested using through API calls.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">All the user data is stored in a MySQL database.</li>
+          </ul>
+        </div>
+        <div class="more-stuff-grid">
+          <ul class="slide-in from-left">
+            <h2>Future Price Predict</h2>
+            <a href="https://github.com/ujjwaldixt/ml-web-project" style="text-decoration: none; color:rgb(92, 4, 133); font-size: small;"> <img style="max-width: 20px; max-height: 10px;" src="img/link.svg"> Link to GitHub</a>
+            <li style="font-size: medium; padding-bottom: 2%;">This is a Future house price predictor web app.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">This project deploys ML model on a website. It has a future house price prediction model running at the server side to calculate the prices of house.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">It is using 3 different models together to calculate the prices. This is in order to make the predictions robust.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">The main model uses XGBoost model.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">The back end routing is handeled in Django. The entire back-end is based on MTC.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">The front-end designing is done using Bootstrap. To display the content Djanog's HTML template was used.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">This application uses MySQL to save user information and previously calculated data to speed up the website price calculation process.</li>
+          </ul>
+          <img
+            src="img/ml_web.png"
+            alt=""
+            class="slide-in from-right"
+          />
+        </div>
+        <div class="more-stuff-grid">
+          <img
+            src="img/meetup.png"
+            alt=""
+            class="slide-in from-left"
+          />
+          <ul class="slide-in from-right">
+            <h2>Meetup Places</h2>
+            <a href="https://github.com/ujjwaldixt/meetup-places" style="text-decoration: none; color:rgb(92, 4, 133); font-size: small;"> <img style="max-width: 20px; max-height: 10px;" src="img/link.svg"> Link to GitHub</a>
+            <li style="font-size: medium; padding-bottom: 2%;">This webapp stores and display the meetup locations of a user. User may save their favorite places also.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">It uses React and Css in the front-end.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">It uses SPA principle. This makes website extremely fast.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">Routing to different pages is done using React router dom.</li>
+          </ul>
+        </div>
+        <div class="more-stuff-grid">
+          <ul class="slide-in from-left">
+            <h2>Responsive Website</h2>
+            <a href="https://github.com/ujjwaldixt/responsive_website" style="text-decoration: none; color:rgb(92, 4, 133); font-size: small;"> <img style="max-width: 20px; max-height: 10px;" src="img/link.svg"> Link to GitHub</a>
+            <li style="font-size: medium; padding-bottom: 2%;">This project was done to practise Responsive website designing.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">It uses HTML, Sass, and JavaScript.</li>
+            <li style="font-size: medium; padding-bottom: 2%;">Media queries were used to design responsive website. JavaScript was used to handle basic actions.</li>
+          </ul>
+          <img
+            src="img/responsive.png"
+            alt=""
+            class="slide-in from-right"
+          />
+        </div>
+      </div>
+
+      <div id="education" class="home-about">
+        <div class="col fade-in">
+          <div class="education-detail">
+            <h2>Education</h2>
+            <h3 style="text-decoration: underline;">University Of Saskatchewan</h3>
+            <span style="font-size: medium;">Bachelor of Science - Computer Science</span> <span style="font-size:small; padding-left:25%;">  Jan2020 - Current</span>
+            <ul>
+              <li style="font-size: medium; padding-bottom: 2%;">Actively participates in class discussions and hands in assignment on time.</li>
+              <li style="font-size: medium; padding-bottom: 2%;">Is an active member of many university organizations and unions.</li>
+              <li style="font-size: medium; padding-bottom: 2%;">Currently has an overall percentage of <span style="font-size: 1.05rem;">83.15%.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div id="social" class="content-end">
+        <ul class="end-list">
+          <li class="nav__list-item"><a class="btn btn-primary social__link" href="https://www.linkedin.com/in/ujjwal-dixit-943447202/" role="button"><i class="fab fa-linkedin-in"></i>LinkedIN</a></li>
+          <li class="nav__list-item"><a class="btn btn-primary social__link" href="https://github.com/ujjwaldixt" role="button"><i class="fab fa-github"></i>GitHub</a></li>
+        </ul>
+      </div> 
+    </main>
+
+    <script src="js/observers.js"></script>
+
+    
+  </body>
+</html>
